@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b10">
+  <meta name="description" content="Conheça a história e a equipe da VNS.CO: pessoas dedicadas a tornar segurança digital, redes, hardware e eletricidade mais acessíveis.">
+  <meta property="og:title" content="Sobre Nós | VNS.CO">
+  <meta property="og:description" content="Nossa história e nossa equipe.">
+  <meta property="og:image" content="assets/vns-logo.webp">
+  <title>Sobre Nós | VNS.CO</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sobre.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
+  <a href="#principal" class="skip-link">Pular para conteúdo</a>
+  <header class="site-header" id="inicio">
+    <div class="container navbar">
+      <a href="index.html" class="brand" aria-label="VNS.CO, voltar ao início"><span class="brand-symbol" aria-hidden="true">✦</span><span>VNS<span class="brand-dot">.</span>CO</span></a>
+      <nav class="nav-links" aria-label="Menu principal">
+        <a href="index.html#areas">Áreas</a><a href="index.html#conteudos">Conteúdos</a><a href="index.html#laboratorio">Laboratório</a><a href="sobre.html" class="active" aria-current="page">Sobre Nós</a>
+      </nav>
+      <a href="index.html#contato" class="nav-cta">Fale com a VNS <span aria-hidden="true">↗</span></a>
+      <button type="button" class="menu-toggle" aria-label="Abrir menu" aria-controls="mobile-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Menu para celular" inert>
+      <a href="index.html#areas">Áreas de atuação</a><a href="index.html#conteudos">Conteúdos e guias</a><a href="index.html#laboratorio">Laboratório</a><a href="sobre.html" aria-current="page">Sobre Nós</a><a href="index.html#contato">Entre em contato ↗</a>
+    </nav>
+  </header>
+
+  <main id="principal">
+    <section class="about-hero" aria-labelledby="about-title">
+      <img class="about-hero-bg" src="assets/sobre-header.jpg" alt="" fetchpriority="high">
+      <div class="about-hero-shade" aria-hidden="true"></div>
+      <div class="container about-hero-content reveal">
+        <p class="section-label">VNS.CO / SOBRE NÓS</p>
+        <h1 id="about-title">Sobre a <span class="gold-text">VNS.CO</span></h1>
+        <p>Tecnologia, segurança e aprendizado: transformando curiosidade em conhecimento responsável.</p>
+      </div>
+    </section>
+
+    <section class="section history-section" aria-labelledby="history-title">
+      <div class="container history-wrap reveal">
+        <p class="section-label">01 / NOSSA TRAJETÓRIA</p>
+        <h2 id="history-title">Nossa História</h2>
+        <p>A VNS.CO nasceu da vontade de tornar o acesso ao conhecimento em tecnologia mais simples e acolhedor. Começamos como uma pequena equipe, movida pela curiosidade e pelo desejo de transformar ideias em projetos de verdade.</p>
+        <p>Hoje reunimos, em um só lugar, assuntos como segurança digital, redes, hardware e eletricidade básica, sempre com linguagem clara, responsabilidade e respeito aos limites éticos e de segurança de cada área.</p>
+      </div>
+    </section>
+
+    <section class="section team-section" id="equipe" aria-labelledby="team-title">
+      <div class="container">
+        <div class="team-heading reveal"><p class="section-label">02 / QUEM FAZ ACONTECER</p><h2 id="team-title">Nossa Equipe</h2><p>Pessoas comprometidas com a excelência e com o aprendizado em equipe.</p></div>
+        <div class="team-grid">
+          <article class="team-card reveal"><div class="team-photo"><img src="assets/equipe/ingrid-gusmao-lider-de-equipe.jpg" alt="Foto de Ingrid Gusmão, Líder de Equipe" style="object-position:center 30%" loading="lazy" width="240" height="240"></div><h3>Ingrid Gusmão</h3><p class="team-role">Líder de Equipe</p></article>
+          <article class="team-card reveal"><div class="team-photo"><img src="assets/equipe/carlos-henrique-gerente-de-projeto.jpg" alt="Foto de Carlos Henrique, Gerente de Projeto" style="object-position:center 40%" loading="lazy" width="240" height="240"></div><h3>Carlos Henrique</h3><p class="team-role">Gerente de Projeto</p></article>
+          <article class="team-card reveal"><div class="team-photo"><img src="assets/equipe/ana-clara-gerente-administrativo.jpg" alt="Foto de Ana Clara, Gerente Administrativo" style="object-position:center 35%" loading="lazy" width="240" height="240"></div><h3>Ana Clara</h3><p class="team-role">Gerente Administrativo</p></article>
+          <article class="team-card reveal"><div class="team-photo"><img src="assets/equipe/julio-bravim-gerente-de-ia.jpg" alt="Foto de Julio Bravim, Gerente de IA" style="object-position:center 25%" loading="lazy" width="240" height="240"></div><h3>Julio Bravim</h3><p class="team-role">Gerente de IA</p></article>
+          <article class="team-card reveal"><div class="team-photo"><img src="assets/equipe/sara-madeira-gerente-de-ti.jpg" alt="Foto de Sara Madeira, Gerente de TI" style="object-position:center 25%" loading="lazy" width="240" height="240"></div><h3>Sara Madeira</h3><p class="team-role">Gerente de TI</p></article>
+          <article class="team-card reveal"><div class="team-photo"><img src="assets/equipe/leonardo-barbosa-gerente-de-materiais.jpg" alt="Foto de Leonardo Barbosa, Gerente de Materiais" style="object-position:center 25%" loading="lazy" width="240" height="240"></div><h3>Leonardo Barbosa</h3><p class="team-role">Gerente de Materiais</p></article>
+          <article class="team-card reveal"><div class="team-photo"><img src="assets/equipe/ana-karolina-gerente-de-comunicacoes.jpg" alt="Foto de Ana Karolina, Gerente de Comunicações" style="object-position:center 38%" loading="lazy" width="240" height="240"></div><h3>Ana Karolina</h3><p class="team-role">Gerente de Comunicações</p></article>
+          <article class="team-card reveal"><div class="team-photo"><img src="assets/equipe/julio-cesar-colaborador.jpg" alt="Foto de Julio Cesar, Colaborador" style="object-position:center 28%" loading="lazy" width="240" height="240"></div><h3>Julio Cesar</h3><p class="team-role">Colaborador</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-cta">
+      <div class="container about-cta-box reveal"><div><p class="section-label">03 / VAMOS CONVERSAR</p><h2>Quer falar com a <span class="gold-text">equipe?</span></h2></div><a href="index.html#contato" class="btn btn-gold">Fale com a VNS <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="footer-brand" href="index.html">VNS<span>.</span>CO <small>✦</small></a><p>SEGURANÇA DIGITAL. REDES.<br>HARDWARE. ELETRICIDADE.</p><a href="#inicio" class="footer-top-link">VOLTAR AO TOPO ↑</a></div><div class="container footer-sub"><span>© <span id="year"></span> VNS.CO — SITE DEMONSTRATIVO</span><span>APRENDA COM CURIOSIDADE. PRATIQUE COM RESPONSABILIDADE.</span></div></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
